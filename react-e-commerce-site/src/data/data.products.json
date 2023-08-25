@@ -1,0 +1,23 @@
+[
+    {
+      "name": "T-Shirt",
+      "description": "Great fit, super comfy",
+      "image": "https://i.imgur.com/KeQtXT3.png",
+      "price": 25,
+      "sku": "123"
+    },
+    {
+      "name": "Sweater",
+      "description": "Awesome for cold days",
+      "image": "https://i.imgur.com/fVpadKg.png",
+      "price": 50,
+      "sku": "456"
+    },
+    {
+      "name": "Button Down",
+      "description": "A little fancier",
+      "image": "https://i.imgur.com/JxGBvyj.png",
+      "price": 30,
+      "sku": "789"
+    }
+  ]

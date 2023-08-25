@@ -1,0 +1,117 @@
+.cards-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-button button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-button button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  color:white;
+  background-color: black;
+  border: 2px solid whitesmoke;
+}
+
+.card-button a:last-child button {
+  background-color: black;
+  color: whitesmoke;
+}
+.card-button a button :hover{
+  color:black;
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-holder {
+    gap: 10px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .card img {
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-content h4 {
+    font-size: 16px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+  }
+  
+  .card-button {
+    padding: 10px;
+  }
+  
+  .card-button button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}

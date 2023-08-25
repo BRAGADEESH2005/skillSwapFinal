@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  background-color: #222;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none;
+}
+
+.logoo{
+  text-decoration: none;
+  color:white;
+}
+.navbar__logo:hover {
+  background-color: #d48a00;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.navbar__link:hover {
+  background-color: #d48a00;
+}
+
+.navbar__link-cart {
+  background-color: #f8b400;
+}
+
+.navbar__skill-coins {
+  margin-right: 1rem;
+  color: #d48a00;
+  font-weight: bold;
+}
+
+.navbar__logout {
+  background-color: transparent;
+  border: none;
+  color: #d48a00;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.navbar__logout:hover {
+  color: #f8b400;
+}
